@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500,700&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__top">
+				<div class="header__row-1">
+					<div class="row">
+						<div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+							<div class="header__social">
+								<a href="#" class="header__social-link fb"></a>
+								<a href="#" class="header__social-link pi"></a>
+								<a href="#" class="header__social-link inst"></a>
+								<a href="#" class="header__social-link tw"></a>
+								<a href="#" class="header__social-link google"></a>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-sm-7 col-12 ml-lg-auto">
+							<div class="header__address">
+								<span class="header__address-text"> 1835 73rd Ave NE, Medina, Washington, USA.</span>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-sm-4 col-7 m-auto m-sm-0 ml-sm-auto ml-md-0">
+							<div class="header__login">
+								<a href="#" class="header__login-link">
+									Login
+								</a>
+								<a href="#" class="header__login-link">
+									Register
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__row-2">
+					<div class="row">
+						<div class="col-md-4 col-lg-3">
+							<div class="header__logo">
+								<a href="index.html">
+									<img src="img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-md-7 col-lg-5 ml-auto">
+							<nav class="nav">
+								<ul class="nav__list">
+									<li class="nav__item"><a href="#" class="nav__link">home</a></li>
+									<li class="nav__item"><a href="#" class="nav__link">tours</a></li>
+									<li class="nav__item"><a href="#" class="nav__link">package</a></li>
+									<li class="nav__item"><a href="#" class="nav__link">blog</a></li>
+									<li class="nav__item"><a href="#" class="nav__link">contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="header-main">
+				<div class="row">
+					<div class="col-xl-7">
+						<div class="header-main__tel">+91 254 587 485</div>
+						<h1 class="header-main__title">Book a Ticket & Just Leave!</h1>
+						<p class="header-main__text">Travel is the movement of people between relatively distant
+							geographical locations, and can involve travel by foot,bicycle, automobile, train, boat,
+							bus.</p>
+						<button class="header-main__btn">get ticket</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="pop-place">
+		<div class="container">
+			<div class="pop-place-tabs tabs">
+				<div class="pop-place-tab tabNavigation">
+					<div class="pop-place-tab__item">
+						<a href="#first">hotel</a>
+					</div>
+					<div class="pop-place-tab__item">
+						<a href="#second">tours</a>
+					</div>
+					<div class="pop-place-tab__item">
+						<a href="#third">package</a>
+					</div>
+				</div>
+				<form action="#" class="pop-place-form" id="form">
+					<div class="pop-place-form__column">
+						<label for="">
+							where?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose loacation">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							which?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose City">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							Check in
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							Check out
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<button class="pop-place-form__search-btn">search</button>
+				</form>
+				
+				<form action="#" class="pop-place-form" id="form">
+					<div class="pop-place-form__column">
+						<label for="">
+							which?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose loacation">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+						
+							where?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose City">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							Check out
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							Check in
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<button class="pop-place-form__search-btn">search</button>
+				</form>
+
+				<form action="#" class="pop-place-form" id="form">
+					<div class="pop-place-form__column">
+						<label for="">
+						Check out	
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose loacation">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							which?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="Choose City">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							Check in
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<div class="pop-place-form__column">
+						<label for="">
+							where?
+						</label>
+						<input type="text" class="pop-place-form__input" placeholder="YY-DD-MM">
+					</div>
+					<button class="pop-place-form__search-btn">search</button>
+				</form>
+
+			</div>
+			<div class="pop-place-content">
+				<h6 class="pop-place-content__subtitle">Popular Tour Packages</h6>
+				<h3 class="pop-place-content__title">Populer place</h3>
+				<div class="pop-place-content-slider">
+					<div class="row pop-place-content-slider-wrap">
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-1.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-2.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-3.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-3.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-3.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="pop-place-content-slider__item">
+								<img src="img/populer-place-slider-3.jpg" alt="" class="pop-place-content-slider__img">
+								<div class="pop-place-content-slider__info">
+									<span>$500 2 days 2 night</span>
+									Mancity, England
+									<a href="#"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pop-place-bottom">
+				<div class="pop-place-bottom-text">
+					<h3 class="pop-place-bottom-text__title">Most Popular Travel Destinations</h3>
+					<p class="pop-place-bottom-text__paragraph">Love travel? Plan and book your perfect trip with expert
+						advice, travel tips, destination information and inspiration from Lonely Planet</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="norway">
+		<div class="norway-slider">
+			<div class="container">
+				<div class="norway-slider-info">
+					<h5 class="norway-slider-info__text">
+						Grand Switzerland
+					</h5>
+					<ul class="norway-slider-info__events">
+						<li class="norway-slider-info__event eye"></li>
+						<li class="norway-slider-info__event heart"></li>
+						<li class="norway-slider-info__event chat"></li>
+						<li class="norway-slider-info__event share"></li>
+						<li class="norway-slider-info__event camera"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="norway-slider">
+			<div class="container">
+				<div class="norway-slider-info">
+					<h5 class="norway-slider-info__text">
+						Grand Switzerland
+					</h5>
+					<ul class="norway-slider-info__events">
+						<li class="norway-slider-info__event eye"></li>
+						<li class="norway-slider-info__event heart"></li>
+						<li class="norway-slider-info__event chat"></li>
+						<li class="norway-slider-info__event share"></li>
+						<li class="norway-slider-info__event camera"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="norway-slider">
+			<div class="container">
+				<div class="norway-slider-info">
+					<h5 class="norway-slider-info__text">
+						Grand Switzerland
+					</h5>
+					<ul class="norway-slider-info__events">
+						<li class="norway-slider-info__event eye"></li>
+						<li class="norway-slider-info__event heart"></li>
+						<li class="norway-slider-info__event chat"></li>
+						<li class="norway-slider-info__event share"></li>
+						<li class="norway-slider-info__event camera"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="honeymoon">
+		<div class="container">
+			<div class="honeymoon-top">
+				<h3 class="honeymoon-top__title">Destinations for Honeymoon</h3>
+				<p class="honeymoon-top__text">Love travel? Plan and book your perfect trip with expert advice, travel tips,
+					destination information and inspiration from Lonely Planet</p>
+			</div>
+		</div>
+		<div class="container-fluid hidden">
+			<div class="honeymoon-slider">
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-2.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-2.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-3.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-3.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-3.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+				<div class="honeymoon-slider-item">
+					<div class="honeymoon-slider-item__img">
+						<img src="img/honeymoon-slider-img-3.jpg" alt="">
+						<ul class="img-bottom-block">
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+							<li class="img-bottom-block__item"></li>
+						</ul>
+					</div>
+					<div class="honeymoon-slider-item__main">
+						<h5 class="countrie">Switzerland</h5>
+						<span class="price">$560</span>
+						<span class="time">2 days 2 night</span>
+						<p class="desc">There are a few very, very fine strands of PLA</p>
+						<div class="stars"></div>
+						<a href="#" class="more">more details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="holiday">
+		<div class="container">
+			<div class="row justify-content-between align-items-lg-center">
+				<div class="col-lg-5">
+					<div class="holiday-content">
+						<span class="holiday-content__subt">
+							<span>50</span> OFF Discount 10-30% Off
+						</span>
+						<h2 class="holiday-content__title">Best Holiday Packages</h2>
+						<p class="holiday-content__text">Find your ideal holiday package whether you're travelling in Australia or
+							around the World. Book Flights & Accommodation packages in one place with Escape Travel.</p>
+						<a href="#" class="holiday-content__more">read more</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="holiday-slider">
+						<div class="holiday-slider__img">
+							<img src="img/holiday-slider.jpg" alt="" class="holiday-slider__img">
+						</div>
+						<div class="holiday-slider__img">
+							<img src="img/holiday-slider.jpg" alt="" class="holiday-slider__img">
+						</div>
+						<div class="holiday-slider__img">
+							<img src="img/holiday-slider.jpg" alt="" class="holiday-slider__img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hurry">
+		<div class="hurry-top">
+			<div class="container">
+				<div class="hurry-top-wrap">
+					<h3 class="hurry-top__title">30% Discount, stock limited</h3>
+					<p class="hurry-top__text">
+						The world's largest student and youth travel agency. Find cheap flights, tours, Spring Break packages and
+						exclusive travel deals for studentsTake full advantage of privileged discount rates.
+					</p>
+					<a href="#" class="hurry-top__btn">get ticket</a>
+					<ul class="hurry-top-time">
+						<li class="hurry-top-time__item">
+							<span class="number">
+								364
+							</span>
+							<span class="time">
+								days
+							</span>
+						</li>
+						<li class="hurry-top-time__item">
+							<span class="number">
+								23
+							</span>
+							<span class="time">
+								hours
+							</span>
+						</li>
+						<li class="hurry-top-time__item">
+							<span class="number">
+								59
+							</span>
+							<span class="time">
+								minutes
+							</span>
+						</li>
+						<li class="hurry-top-time__item">
+							<span class="number">
+								59
+							</span>
+							<span class="time">
+								seconds
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="hurry-slider">
+			<div class="container hurry-slider-inner">
+				<div class="hurry-slider-item">
+					<div class="hurry-slider__img">
+						<img src="img/hurry-slider-img.png" alt="">
+					</div>
+					<div class="hurry-slider__content">
+						<h5 class="place">Italy (Rome)</h5>
+						<span class="desc">
+							3 Days 2 Night
+						</span>
+						<span class="desc">
+							Visit most 4 populer place
+						</span>
+						<span class="price">
+							$1500
+						</span>
+						<a href="#" class="hurry-slider__btn hurry-slider__btn_abs">Get ticket</a>
+					</div>
+				</div>
+				<div class="hurry-slider-item">
+					<div class="hurry-slider__img">
+						<img src="img/hurry-slider-img.png" alt="">
+					</div>
+					<div class="hurry-slider__content">
+						<h5 class="place">Italy (Rome)</h5>
+						<span class="desc">
+							3 Days 2 Night
+						</span>
+						<span class="desc">
+							Visit most 4 populer place
+						</span>
+						<span class="price">
+							$1500
+						</span>
+						<a href="#" class="hurry-slider__btn hurry-slider__btn_abs">Get ticket</a>
+					</div>
+				</div>
+				<div class="hurry-slider-item">
+					<div class="hurry-slider__img">
+						<img src="img/hurry-slider-img.png" alt="">
+					</div>
+					<div class="hurry-slider__content">
+						<h5 class="place">Italy (Rome)</h5>
+						<span class="desc">
+							3 Days 2 Night
+						</span>
+						<span class="desc">
+							Visit most 4 populer place
+						</span>
+						<span class="price">
+							$1500
+						</span>
+						<a href="#" class="hurry-slider__btn hurry-slider__btn_abs">Get ticket</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="form-and-news">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 no-padding">
+					<div class="form-block">
+						<h3 class="form-block__title">It’s a big deal!</h3>
+						<p class="form-block__subt">
+							subscribe our news letter
+						</p>
+						<form action="#" class="form">
+							<input type="text" class="form__input" placeholder="Enter your email">
+							<input type="submit" value="submit" class="form__submit">
+						</form>
+						<div class="form-block__video">
+							<img src="img/form-video.jpg" alt="">
+							<button class="form-block__btn">
+								Watching video
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="news-block">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="news-block-item">
+								<div class="news-block-item__img">
+									<img src="img/news-item-1.jpg" alt="">
+								</div>
+								<div class="news-block-item-main">
+									<div class="news-block-item__info">
+										<span>
+											29 February
+										</span>
+										<span>
+											by admin
+										</span>
+									</div>
+									<h4 class="news-block-item__title">
+										Here's how to get the most out
+										of a Liverpool city!
+									</h4>
+									<p class="news-block-item__text">
+										Travel is the movement of people between relatively distant geographical locations, and can involve
+										travel by foot.
+									</p>
+									<ul class="news-block-item__do">
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="news-block-item">
+								<div class="news-block-item__img">
+									<img src="img/news-item-2.jpg" alt="">
+								</div>
+								<div class="news-block-item-main">
+									<div class="news-block-item__info">
+										<span>
+											29 February
+										</span>
+										<span>
+											by admin
+										</span>
+									</div>
+									<h4 class="news-block-item__title">
+										Why Travel is Important If you've
+										grown up with all the comforts ?
+									</h4>
+									<p class="news-block-item__text">
+										Travel is the movement of people between relatively distant geographical locations, and can involve
+										travel by foot.
+									</p>
+									<ul class="news-block-item__do">
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="news-block-item">
+								<div class="news-block-item__img">
+									<img src="img/news-item-3.jpg" alt="">
+								</div>
+								<div class="news-block-item-main">
+									<div class="news-block-item__info">
+										<span>
+											29 February
+										</span>
+										<span>
+											by admin
+										</span>
+									</div>
+									<h4 class="news-block-item__title">
+										Travelling, for me, is same as
+										reading books.
+									</h4>
+									<p class="news-block-item__text">
+										Travel is the movement of people between relatively distant geographical locations, and can involve
+										travel by foot.
+									</p>
+									<ul class="news-block-item__do">
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__main">
+				<div class="row justify-content-between">
+				<div class="col-lg-3 mobile-margin">
+					<div class="footer__logo">
+						<a href="index.html"><img src="img/logo.png" alt=""></a>
+					</div>
+					<div class="footer__contact">
+						<a href="tel:+91254541254" class="footer__link">Phone: +91 254 541 254</a>
+						<a href="tel:+441619998888" class="footer__link">Fax : +44 161 999 8888</a>
+						<a href="email:dreamland@dream.com" class="footer__link">Email: dreamland@dream.com</a>
+					</div>
+					<ul class="footer__social">
+						<li><a href="#" class="footer__link"></a></li>
+						<li><a href="#" class="footer__link"></a></li>
+						<li><a href="#" class="footer__link"></a></li>
+						<li><a href="#" class="footer__link"></a></li>
+						<li><a href="#" class="footer__link"></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 mobile-center mobile-margin">
+					<div class="footer__title">
+						<h4>Support</h4>
+					</div>
+					<div class="footer__links">
+						<a href="#" class="footer__link">Email Contact</a>
+						<a href="#" class="footer__link">Help Center</a>
+						<a href="#" class="footer__link">Live chat</a>
+						<a href="#" class="footer__link">Our Community</a>
+						<a href="#" class="footer__link">Services Status</a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 mobile-center mobile-margin">
+					<div class="footer__title">
+						<h4>location</h4>
+					</div>
+					<div class="footer__links">
+						<a href="#" class="footer__link">London</a>
+						<a href="#" class="footer__link">Canada</a>
+						<a href="#" class="footer__link">America</a>
+						<a href="#" class="footer__link">India</a>
+						<a href="#" class="footer__link">Austalia</a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6 mobile-center mobile-margin">
+					<div class="footer__title">
+						<h4>menu</h4>
+					</div>
+					<div class="footer__links">
+						<a href="#" class="footer__link">Home</a>
+						<a href="#" class="footer__link">About</a>
+						<a href="#" class="footer__link">Tours</a>
+						<a href="#" class="footer__link">Packages</a>
+						<a href="#" class="footer__link">Blog</a>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+			<div class="footer__copy">
+				<div class="row">
+
+					<div class="col-md-4">
+						<div class="footer__copy-info">
+							<span>
+								© 2018 Roy Design.
+							</span>
+							<span>
+								All Rights Reserved
+							</span>
+						</div>
+
+					</div>
+					<div class="col-md-6 ml-auto">
+						<nav class="footer__copy-menu">
+							<a href="#" class="footer__link">About Hoststar</a>
+							<a href="#" class="footer__link">Privacy Policy</a>
+							<a href="#" class="footer__link">Help Center</a>
+							<a href="#" class="footer__link">Terms</a>
+							<a href="#" class="footer__link">Site Map</a>
+						</nav>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="libs/jquery-3.3.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
